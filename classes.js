@@ -114,7 +114,7 @@ class Stage {
             atacked.life -= actualAttack;
             this.log.addMessage(`${attacking.name} Causou ${actualAttack.toFixed(2)} de dano em ${atacked.name}`)
         } else {
-            this.log.addMessage(`${atacked.name} consegiu Defender...`);
+           this.log.addMessage(`${atacked.name} consegiu Defender...`);
         }
 
 
